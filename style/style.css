@@ -146,3 +146,99 @@ table th{
     width: 40%;
 }
 
+/* الشاشة الصغيرة */
+@media (max-width:500px){
+
+    .price{
+        display:block;
+        translate: 25px 0;
+    }
+    .price #price , #taxes{
+        width: 45%;
+        margin-left: 0;
+        translate: -11px 0;
+    }
+    .price #ads , #discount{
+        width: 45%;
+        margin-left: 0;
+        translate: -11px 0;
+    }
+    .contenr{
+        width: 100%;
+    }
+    #total{
+        border-radius: 30px;
+        margin-bottom:15px;
+        margin-top: 0;
+        translate:-11px 0 ;
+    }
+    table{
+        width: 100%;
+        font-size: 11px; 
+        margin-left: 0;       
+    }
+    .du{
+        width: 40px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width:501px) and (max-width:620px){
+ 
+     .contenr{
+        width: 100%;
+    }
+     .price{
+        display:block;
+        translate: 15px 0;
+    }
+    .price input{
+        width: 19%;
+    }
+     #total{
+        border-radius: 30px;
+        margin-bottom:15px;
+        margin-top: 0;
+        translate:-11px 0 ;
+    }
+     table{
+        width: 100%;
+        font-size: 13px; 
+        margin-left: 0;       
+    }
+    .du{
+        width: 40px;
+        font-size: 13px;
+    }
+
+}
+@media (min-width:621px) and (max-width:1060px){
+
+    .contenr{
+        width: 100%;
+    }
+    .price{
+        display:block;
+        translate: 15px 0;
+    }
+    .price input{
+        width: 20.8%;
+    }
+     #total{
+        border-radius: 30px;
+        margin-bottom:15px;
+        margin-top: 0;
+        translate:-11px 0 ;
+        
+    }
+     table{
+        width: 100%;
+        font-size: 13px; 
+        margin-left: 0;       
+    }
+    .du{
+        width: 60px;
+        font-size: 16px;
+    }
+
+}
