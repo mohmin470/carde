@@ -148,7 +148,7 @@ table th{
 
 /* الشاشة الصغيرة */
 
-@media (min-width:420px) and (max-width:500px){
+@media (min-width:320px) and (max-width:500px){
 
     .price{
         display:block;
@@ -243,3 +243,4 @@ table th{
     }
 
 }
+
