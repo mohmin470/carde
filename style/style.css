@@ -147,7 +147,8 @@ table th{
 }
 
 /* الشاشة الصغيرة */
-@media (max-width:500px){
+
+@media (min-width:420px) and (max-width:500px){
 
     .price{
         display:block;
@@ -174,7 +175,7 @@ table th{
     }
     table{
         width: 100%;
-        font-size: 11px; 
+        font-size: 9px; 
         margin-left: 0;       
     }
     .du{
